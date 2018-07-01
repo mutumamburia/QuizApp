@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="display_test">Display Test</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="question_one">1. Which of the following is not an android component?</string>
+    <string name="question_two">2. Which of the following statements are true?</string>
+    <string name="question_three">3. What is an AsyncTask in Android Development?</string>
+    <string name="question_four">4. Which of the following classes are used for multi tasking?</string>
+    <string name="question_five">5. Which of the following components is used for sharing data between two apps?</string>
+    <string name="question_six">6. Which view group is used hold a single view</string>
+    <string name="question_six_hint">Enter your answer here</string>
+
+    <string name="services">Service</string>
+    <string name="fragment">Fragment</string>
+    <string name="activity">Activity</string>
+    <string name="intent_service">IntentService</string>
+    <string name="async_task">AsyncTask</string>
+    <string name="content_providers">Content Providers</string>
+    <string name="broadcast_service">Broadcast Service</string>
+    <string name="linear_layout">Linear Layout</string>
+
+    <string name="score_text">Your total score is </string>
+    <string name="out_of">out of </string>
+
+    <string name="question_two_statement_one">Fragment houses an activity</string>
+    <string name="question_two_statement_two">Fragment is housed by an activity</string>
+    <string name="question_two_statement_three">Fragments are useful in multi-sized screens</string>
+    <string name="question_two_statement_four">Fragments make activities reusable</string>
+    <string name="question_three_statement_one">Used by an android app t handle tasks in the background</string>
+    <string name="question_three_statement_two">Is a type of an activity</string>
+
+
+    <string name="welcome_text">Hi, Welcome to Quiz App. Test your knowledge in Android Development</string>
+    <string name="view_score">View Score</string>
+
+    <string-array name="question_one_choices">
+        <item>@string/services</item>
+        <item>@string/fragment</item>
+        <item>@string/activity</item>
+        <item>@string/content_providers</item>
+    </string-array>
+    <string-array name="question_two_choices">
+        <item>@string/question_two_statement_one</item>
+        <item>@string/question_two_statement_two</item>
+        <item>@string/question_two_statement_three</item>
+        <item>@string/question_two_statement_four</item>
+    </string-array>
+
+    <string-array name="question_three_choices">
+        <item>@string/question_three_statement_one</item>
+        <item>@string/question_three_statement_two</item>
+    </string-array>
+
+    <string-array name="question_four_choices">
+        <item>@string/intent_service</item>
+        <item>@string/activity</item>
+        <item>@string/async_task</item>
+        <item>@string/linear_layout</item>
+    </string-array>
+
+    <string-array name="question_five_choices">
+        <item>@string/activity</item>
+        <item>@string/services</item>
+        <item>@string/content_providers</item>
+        <item>@string/broadcast_service</item>
+    </string-array>
+
+    <string-array name="question_one_correct">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="question_two_correct">
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="question_three_correct">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="question_four_correct">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="question_five_correct">
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+</resources>
